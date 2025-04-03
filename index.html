@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MBTI Test</title>
+    <title>MBTI Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>MBTI Personality Quiz</h1>
+    <script src=""script.js></script>
+    <form id="quiz-form">
+        <!-- Question 1 -->
+        <div class="question">
+            <p>Do you prefer to spend time alone or with others?</p>
+            <label>
+                <input type="radio" name="q1" value="I"> Alone
+            </label>
+            <label>
+                <input type="radio" name="q1" value="E"> With Others</label>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <p> Do you focus on details or the big picture?</p>
+            <label>
+                <input type="radio" name="q2" value="S">Details
+            </label>
+            <label>
+                <input type="radio" name="q2" value="N">Big Picture
+            </label>
+        </div>
+
+        <!-- Question 3-->
+        <div class="question">
+            <p>Do You make decisions based on logic or feelings?</p>
+            <label>
+                <input type="radio" name="q3" value="T">Logic
+            </label>
+            <label>
+                <input type="radio" name="q3" value="F">Feelings
+            </label>
+        </div>
+        
+        <!--Question 4 -->
+        <div class="question">
+            <p>Do you prefer structured or flexible schedule?</p>
+            <label>
+                <input type="radio" name="q4" value="J"> Structured
+            </label>
+            <label>
+                <input type="radio" name="q4" value="P"> Flexible
+            </label>
+        </div>
+        <button type="submit">Get Result</button>
+    </form>
+    <p id="result"></p>
 </body>
 </html>
