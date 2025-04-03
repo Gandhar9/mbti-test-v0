@@ -1,0 +1,70 @@
+/* Importing Catppuccin Colors */
+:root {
+    --background: #302D41;
+    --foreground: #D9E0EE;
+    --primary: #F5E0DC;
+    --secondary: #F2CDCD;
+    --accent: #DDB6F2;
+    --button-bg: #B5E8E0;
+    --button-hover: #89DCEB;
+}
+
+/* General Page Styling */
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling the form */
+form {
+    background: rgba(50, 47, 68, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling Questions */
+question {
+    margin-bottom: 15px;
+}
+
+/* Styling Label */
+label {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    accent-color: var(--accent)
+}
+
+/* Submit Button */
+button {
+    background-color: var(--button-bg);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+/* Result Styling */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: var(--secondary)
+}
